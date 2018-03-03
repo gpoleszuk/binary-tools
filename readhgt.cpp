@@ -27,7 +27,6 @@ int main(int argc, char* argv[]) {
           point++;
           fread(&hgt, sizeof(short int), 1, fp);
           fprintf(ft, "%+6d ", swap(hgt));
-          //printf("[%08d] [%04d][%04d]: %02d m\n", point, row, col, swap(hgt));
         }
         fprintf(ft, "\n", hgt);
       }
@@ -39,7 +38,5 @@ int main(int argc, char* argv[]) {
     printf("Insuficient arguments.\n");
   }
 /**/
-  //printf("%02d = %02Xh\n", atoi(argv[1]), atoi(argv[1]));
-  //printf("%d %d\n", 1201 * 1201 * 2 ,0x2c04c2);
-  return 0;
+return 0;
 }
